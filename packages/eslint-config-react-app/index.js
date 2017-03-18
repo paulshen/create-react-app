@@ -206,7 +206,7 @@ module.exports = {
     // 'import/no-unresolved': ['warn', { commonjs: true }],
     // We don't support configuring Webpack using import source strings, so this
     // is always an error.
-    'import/no-webpack-loader-syntax': 'error',
+    'import/no-webpack-loader-syntax': 'off',
 
     // https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules
     'react/jsx-equals-spacing': ['warn', 'never'],
